@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Draco by @flamekaizar</title>
+    <title>Hongfei(Finley) Zhang</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Draco is free PSD &amp; HTML template by @flamekaizar">
-    <meta name="author" content="Afnizar Nur Ghifari">
+    <meta name="description" content="Hongfei Zhang's profile page &amp; HTML template by @flamekaizar">
+    <meta name="author" content="Hongfei Zhang">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="css/kube.min.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/custom.min.css"/>
+    <link rel="stylesheet" href="css/custom.css"/>
     <link rel="shortcut icon" href="img/favicon.png"/>
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -26,15 +26,15 @@
     <div class="container">
         <header class="group top-nav">
             <div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-                <span class="logo">DRACO</span> <!-- ?? -->
+                <span class="logo">Finley</span>
             </div>
             <nav id="navbar-1" class="navbar item-nav">
                 <ul>
                     <li class="active"><a href="#about">About</a></li>
                     <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#project">Project</a></li>
                     <li><a href="#achievements">Achievements</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <!--<li><a href="#project">Project</a></li>-->
                 </ul>
             </nav>
         </header>
@@ -44,13 +44,13 @@
 <!-- Introduction -->
 <div class="intro section" id="about">
     <div class="container">
-        <p>Hi, I’m Hongfei Zhang</p>
+<!--        <p>Hi, I’m Hongfei Zhang</p>-->
         <div class="units-row units-split wrap">
             <div class="unit-20">
                 <img src="img/finley.JPG" alt="Hongfei Zhang">
             </div>
             <div class="unit-80">
-                <h1>I live in<br><span id="typed"></span></h1>
+                <h1>I AM<br><span id="typed"></span></h1>
             </div>
             <p>
                 Hongfei(Finley) Zhang is a highly motivated Computer Engineering student with strong passion for learning and proven record of self-development. Enthusiastic for innovation and cutting-edge technology.
@@ -68,11 +68,34 @@
             <li>January - April 2020</li>
             <li><a href="#">Coding Instructor</a></li>
 
-            <li>• Developed a comprehensive computer science curriculum and learning plan targeted for elementary level and fully integrated into the existing learning activities of students</li>
-            <li>• Provided engaging and fun in-class lessons on Python and Block programming languages</li>
-            <li>• Assisted student working on independent projects involving technical design </li>
-            <li>• Designed a small-scale Faraday generator for a grade 4 project use 3D printer technique</li>
-            <li>• Led the initiative of reconditioning and repurpose of old electronic equipment in support of future student projects and advocation for recycling </li>
+            <li class="b">Developed a comprehensive computer science curriculum and learning plan targeted for elementary level
+                and fully integrated into the existing learning activities of students</li>
+            <li class="b">Provided engaging and fun in-class lessons on Python and Block programming languages</li>
+            <li class="b">Assisted student working on independent projects involving technical design </li>
+            <li class="b">Designed a small-scale Faraday generator for a grade 4 project using 3D printer technique</li>
+            <li class="b">Led the initiative of reconditioning and repurpose of old electronic equipment in support of future
+                student projects and advocation for recycling </li>
+        </ul>
+
+    </div>
+</div>
+
+<!-- Projects -->
+
+<div class="work section second" id="project">
+    <div class="container">
+        <h1>Present<br>Project</h1>
+
+        <ul class="work-list">
+            <li><a href="#">Mobile Community Hub for Animal Crossing </a></li>
+
+            <li class="work-list b">An ongoing group project aims to delivering a player driven web application for Animal Crossing community.
+                This online platform will enable players to share, trade, and query the latest information regarding to the in-game
+                economy and activity. Expected Alpha launch in early August.</li>
+            <li class="b">Built an automated code build pipeline using Microsoft Azure DevOps</li>
+            <li class="b">Practicing Test Driven Development (TDD) to improve code quality </li>
+            <li class="b">Utilizing Swagger for Restful microservice design and client code generation</li>
+            <li class="b">Developing microservices for information sharing and off-game trading using Express.js and MongoDB</li>
         </ul>
 
     </div>
@@ -118,10 +141,11 @@
     </div>
 </div>
 
+
 <!-- Quote -->
 <div class="quote">
     <div class="container text-centered">
-        <h1>fight against the ugliness.</h1>
+        <h1>keep calm and coding.</h1>
     </div>
 </div>
 
@@ -129,14 +153,14 @@
     <div class="container">
         <div class="units-row">
             <div class="unit-50">
-                <p style="color:#ebe5e4;">Handcrafted by Afnizar Nur Ghifari</p>
+                <p style="color:#ebe5e4;">Inspired by Afnizar Nur Ghifari</p>
             </div>
             <div class="unit-50">
                 <ul class="social list-flat right">
                     <li><a href="mailto:hongfeiz@mun.ca"><i class="fa fa-send"></i></a></li>
                     <li><a href=""><i class="fa fa-twitter"></i></a></li>
-<!--                    <li><a href=""><i class="fa fa-dribbble"></i></a></li>-->
-<!--                    <li><a href=""><i class="fa fa-behance"></i></a></li>-->
+                    <li><a href="https://github.com/FinleyZ"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/hongfei-zhang-511027193/"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -155,7 +179,7 @@
     $(function () {
         $("#typed").typed({
             // Change to edit type effect
-            strings: ["far northern sky", "your galaxy", "everywhere"],
+            strings: ["Hongfei Zhang", "Finley Zhang"],
 
             typeSpeed: 90, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () {
                 newTyped()
